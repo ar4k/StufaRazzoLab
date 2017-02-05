@@ -8,6 +8,6 @@ git add .
 echo "git commit -a -m \"$1\""
 git commit -a -m "$1"
 echo "git push"
-git push -b master
+git push -f origin master
 
 exit 0
